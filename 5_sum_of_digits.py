@@ -1,4 +1,4 @@
-n=int(input())
+n=int(input('enter a digit:'))
 sum=0
 while(n>0):
     r=n%10
