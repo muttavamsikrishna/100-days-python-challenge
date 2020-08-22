@@ -2,9 +2,9 @@ n=int(input('enter number:'))
 k=str(n)
 h=0
 for i in range(len(k)-1):
-    if int(k[i])==int(k[i+1])+1:
+    if int(k[i])<int(k[i+1]) and (h==0 or h==1):
         h=1
-    elif int(k[i])==int(k[i+1])-1:
+    elif int(k[i])>int(k[i+1]) and (h==0 and h==-1):
         h=-1
     else:
         h=0
