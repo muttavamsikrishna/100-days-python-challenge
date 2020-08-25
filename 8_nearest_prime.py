@@ -5,7 +5,7 @@ def prime(n):
             return False
     else:
         return True
-n=int(input())
+n=int(input('enter number:'))
 for i in range(n-1,1,-1):
     if prime(i):
         print(i)
